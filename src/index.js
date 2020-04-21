@@ -12,7 +12,7 @@ import authReducer from './store/reducers/auth';
 import { BrowserRouter } from 'react-router-dom';
 // burgerBuilderReducer isnt yet defined
 // if we have a few reducers might have to use combineReducers...
-const composeEnhancers = null
+const composeEnhancers = compose
 //  process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ : null || compose
 
 const combinedReducers = combineReducers({
